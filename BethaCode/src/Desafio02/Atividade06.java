@@ -1,3 +1,5 @@
+package Desafio02;
+
 public class Atividade06 {
     public static void main(String[] args) {
         int i = 15;

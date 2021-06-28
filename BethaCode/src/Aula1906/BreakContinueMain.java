@@ -1,3 +1,5 @@
+package Aula1906;
+
 public class BreakContinueMain {
     public static void main(String[] args) {
 

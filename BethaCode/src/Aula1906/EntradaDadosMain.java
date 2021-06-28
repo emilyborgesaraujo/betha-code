@@ -1,3 +1,5 @@
+package Aula1906;
+
 import java.util.Scanner;
 
 public class EntradaDadosMain {

@@ -1,3 +1,5 @@
+package Desafio02;
+
 import java.util.Scanner;
 
 public class Atividade05 {

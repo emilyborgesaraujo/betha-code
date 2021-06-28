@@ -1,11 +1,13 @@
-public class Atividade02 {
+package Desafio02;
+
+public class Atividade03 {
     public static void main(String[] args) {
 
         int x = 10;
 
-        while (x<30) {
+        do {
             System.out.println("Valor de x:" + x);
             x++;
-        }
+        } while (x<30);
     }
 }
