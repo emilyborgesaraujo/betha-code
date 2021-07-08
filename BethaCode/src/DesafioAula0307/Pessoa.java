@@ -11,8 +11,8 @@ public class Pessoa {
     String nomePai;
     String nomeMae;
 
-    public Double retornaIMC(Double altura, Double peso) {
-        Double imc = peso/(altura*altura);
+    public Double retornaIMC() {
+        Double imc = this.peso/(this.altura*this.altura);
 
         return imc;
     }
