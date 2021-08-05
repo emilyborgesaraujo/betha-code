@@ -69,9 +69,9 @@ public class Pedido implements Faturavel{
 
     @Override
     public BigDecimal getValorTotalFaturamento() {
-        BigDecimal total = BigDecimal.ZERO;
-        pedidosItens.forEach(item -> item.getValorTotal());
-        return total;
+        //BigDecimal total = BigDecimal.ZERO;
+        //pedidosItens.forEach(item -> item.getValorTotal());
+        return null;
     }
 
     @Override
