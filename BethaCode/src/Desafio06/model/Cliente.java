@@ -19,4 +19,9 @@ public class Cliente extends Pessoa{
     public void setPercentualDescontoMaximo(BigDecimal percentualDescontoMaximo) {
         this.percentualDescontoMaximo = percentualDescontoMaximo;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente " + super.getNome();
+    }
 }

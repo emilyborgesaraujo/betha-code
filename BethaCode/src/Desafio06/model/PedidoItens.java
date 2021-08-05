@@ -51,7 +51,8 @@ public class PedidoItens {
     }
 
     public BigDecimal getValorTotal() {
-        return valorTotal;
+        //this.valorTotal = this.vendavel.getValorUnitario().multiply();
+        return this.valorTotal;
     }
 
     public void setValorTotal(BigDecimal valorTotal) {

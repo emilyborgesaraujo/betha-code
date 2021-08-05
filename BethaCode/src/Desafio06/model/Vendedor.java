@@ -19,4 +19,9 @@ public class Vendedor extends Pessoa {
     public void setPercentualComissao(BigDecimal percentualComissao) {
         this.percentualComissao = percentualComissao;
     }
+
+    @Override
+    public String toString() {
+        return "Vendedor " + super.getNome();
+    }
 }

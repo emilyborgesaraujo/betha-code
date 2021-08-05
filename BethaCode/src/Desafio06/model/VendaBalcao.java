@@ -59,7 +59,9 @@ public class VendaBalcao implements Faturavel{
 
     @Override
     public BigDecimal getValorTotalFaturamento() {
-        return null;
+        BigDecimal total = BigDecimal.ZERO;
+        vendaBalcaoItens.forEach(item -> item.getValorTotal());
+        return total;
     }
 
     @Override
