@@ -5,6 +5,8 @@ public class PersonalizadaMain {
         recebeValor(8);
     }
 
+    //teste git
+
     public static void recebeValor(int valor) {
         try {
             if (valor > 10) {
