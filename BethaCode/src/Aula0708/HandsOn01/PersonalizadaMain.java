@@ -6,6 +6,7 @@ public class PersonalizadaMain {
     }
 
     //teste git
+    //teste git2
 
     public static void recebeValor(int valor) {
         try {
